@@ -1,9 +1,13 @@
 # demo
 第一次后端大作业  --By  Solyn_Ac_Version
 
-食用方式：MySQL(依托DataGrip)、Java、JWT、SpringMail，均采用ApiFox进行读入测试。  
+使用MySQL(依托DataGrip)、Java、JWT、SpringMail，采用ApiFox进行POST测试。  
 ApiFox接口文档会在之后Publish  
-注：applications.properties、application.yml中的Spring.mail所使用的smpt密码已删除，请自行申请smpt，并在这两个文件的host、password以及LoginService的register的message.setfrom("")中填入smpt地址和个人密码以食用邮箱验证功能。  
+注：删除了src/main/resources/application.properties、src/main/resources/application.properties.yml。  
+这只是为了防止被恶意bot盗取信息。  
+请自行申请smpt，注册mysql服务器。  
+懒人也可私信我（先点个star吧【手动滑稽】  
+
 
 ### 2025/10/21
 创建项目，加入创建账户并邮箱验证、激活账户、登录账户、更改信息、注销账户活动。  
